@@ -3,7 +3,7 @@ body {
 }
 
 .sks-header {
-  background-color: #1c4127;
+  background: url(../img/photo-1530982011887-3cc11cc85693.jpeg);
   height: 120px;
   padding: 10px;
 }
@@ -38,7 +38,11 @@ body {
 
 .navbar {
   margin-top: 120px;
-  height: 50px;
+  height: 60px;
+  background-color: #f7381ff8;
+  border-top: 1px solid rgb(243, 142, 75);
+  border-bottom: 1px solid rgb(243, 142, 75);
+  
 }
 .navbar .nav-item {
   font-size: 1rem;
@@ -51,7 +55,7 @@ body {
 }
 
 .sks-login ul li {
-  color: rgb(202, 197, 197);
+  color: rgb(248, 248, 248);
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 12px;
