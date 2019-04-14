@@ -2,6 +2,11 @@ body {
   margin-top: 170px;
 }
 
+
+/* #8D6346 #4C2B36 #F77F00 #84DCCF 
+#D1462F #D9AE61 #C8963E #E3C567 #7F6148
+#EE4266 #FA8334 #2A1E5C #0A0F0D #3CBBB1*/
+
 .sks-header {
   background: url(../img/photo-1530982011887-3cc11cc85693.jpeg);
   height: 120px;
@@ -39,10 +44,9 @@ body {
 .navbar {
   margin-top: 120px;
   height: 50px;
-  background-color: rgba(6, 5, 77, 0.849);
+  background-color: #363537;
   border-top: 1px solid rgb(243, 142, 75);
   border-bottom: 1px solid rgb(243, 142, 75);
-  
 }
 .navbar .nav-item {
   font-size: 1rem;
@@ -65,11 +69,14 @@ body {
 
 #showcase {
   position: relative;
-  background: url("../img/mountains.jpg");
-  min-height: 600px;
+  background: url(../img/mysore-palace-1584546_960_720.jpg) no-repeat;
+  background-size: 100% 730px;
+  min-height: 500px;
+  background-position-y: -70px;
+  width: 100%;
 }
 #showcase .primary-overlay {
-  background: rgba(31, 182, 209, 0.678);
+  background: rgba(43, 24, 12, 0.432);
   position: absolute;
   top: 0;
   left: 0;
@@ -77,9 +84,8 @@ body {
   height: 100%;
 }
 
-
 .mybgcolor {
-  background-color: #245734;
+  background-color: #EAE2B7;
 }
 
 #authors img {
