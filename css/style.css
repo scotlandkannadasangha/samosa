@@ -116,3 +116,12 @@ body {
     margin-left: 10%;
   }
 }
+.member-photo {
+  margin-left: -100%;
+}
+.member-details {
+  margin-left: 5%;
+}
+.member-profile {
+  margin-right: -10%;
+}
